@@ -10,7 +10,7 @@ import { Component, Input} from '@angular/core';
 export class UserComponent {
 
   @Input({required: true}) avatar!: string;
-  @Input({required: true}) name!: string;
+  @Input({required: true}) name!:string;
 
   get imagePath() {
 
