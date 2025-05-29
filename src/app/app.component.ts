@@ -12,4 +12,10 @@ import { DUMMY_USERS } from './dummy-users';
 export class AppComponent {
   title = 'my-first-angular-project';
   users = DUMMY_USERS;
+
+  onSelectUser(id: string){
+
+    console.log('On Select User Id ' + id);
+
+  }
 }
